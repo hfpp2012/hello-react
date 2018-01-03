@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Header from './components/Header';
+import Home from './components/Home';
 
 class App extends Component {
   render() {
@@ -8,7 +9,17 @@ class App extends Component {
       <div className="container">
         <div className="row">
           <div className="col-xs-1 col-xs-offset-11">
+            <Header />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-xs-1 col-xs-offset-11">
             <h1>Hello !!</h1>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-xs-1 col-xs-offset-11">
+            <Home />
           </div>
         </div>
       </div>
